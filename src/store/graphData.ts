@@ -16,24 +16,19 @@ export interface GraphData {
 }
 export const graphData: GraphData = {
   vertices: [
-    { id: 'v0', objectName: 'North Elevator Entrance', cx: 227, cy: 320 },
+    { id: 'v0', objectName: "North Elevator Entrance", cx: 227, cy: 320 },
     { id: 'v1', objectName: null, cx: 225, cy: 320 },
     { id: 'v2', objectName: null, cx: 150, cy: 320 },
     { id: 'v3', objectName: null, cx: 150, cy: 220 },
     { id: 'v4', objectName: null, cx: 240, cy: 147 },
     { id: 'v5', objectName: null, cx: 560, cy: 147 },
     { id: 'v6', objectName: null, cx: 625, cy: 200 },
+    { id: 'vRestroom', objectName: "Restroom", cx: 625, cy: 225 },
+    { id: 'v14.1', objectName: "14.1", cx: 630, cy: 200 },
     { id: 'v7', objectName: null, cx: 660, cy: 245 },
     { id: 'v8', objectName: null, cx: 660, cy: 320 },
     { id: 'v9', objectName: null, cx: 580, cy: 320 },
-    { id: 'v10', objectName: 'South Elevator Entrance', cx: 560, cy: 320 },
-
-    { id: 'v73', objectName: '14.6, 14.7', cx: 350, cy: 500 },
-    { id: 'v74', objectName: '14.1', cx: 500, cy: 100 },
-    { id: 'v75', objectName: '14.2', cx: 500, cy: 400 },
-    { id: 'v76', objectName: '14.3', cx: 450, cy: 400 },
-    { id: 'v77', objectName: '14.4', cx: 410, cy: 410 },
-    { id: 'v78', objectName: '14.5', cx: 210, cy: 410 },
+    { id: 'v10', objectName: "South Elevator Entrance", cx: 560, cy: 320 },
   ],
 
   edges: [
@@ -47,5 +42,8 @@ export const graphData: GraphData = {
     { id: 'v7_to_v8', from: 'v7', to: 'v8' },
     { id: 'v8_to_v9', from: 'v8', to: 'v9' },
     { id: 'v9_to_v10', from: 'v9', to: 'v10' },
+    { id: 'v6_to_vRestroom', from: 'v6', to: 'vRestroom' },
+    { id: 'v14.1', from: 'v6', to: 'v14.1' },
+
   ],
 };
