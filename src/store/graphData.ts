@@ -16,23 +16,18 @@ export interface GraphData {
 }
 export const graphData: GraphData = {
   vertices: [
-    { id: 'v24', objectName: null, cx: 240, cy: 147 },
-    { id: 'v25', objectName: null, cx: 560, cy: 147 },
-    {
-      id: 'v42',
-      objectName: 'South Elevator Entrance',
-      cx: 203.474,
-      cy: 184.225,
-    },
-    { id: 'v57', objectName: null, cx: 225, cy: 320 },
-    { id: 'v58', objectName: null, cx: 150, cy: 320 },
-    { id: 'v62', objectName: null, cx: 150, cy: 220 },
-    {
-      id: 'v72',
-      objectName: 'North Elevator Entrance',
-      cx: 433.087,
-      cy: 846.411,
-    },
+    { id: 'v0', objectName: 'North Elevator Entrance', cx: 227, cy: 320 },
+    { id: 'v1', objectName: null, cx: 225, cy: 320 },
+    { id: 'v2', objectName: null, cx: 150, cy: 320 },
+    { id: 'v3', objectName: null, cx: 150, cy: 220 },
+    { id: 'v4', objectName: null, cx: 240, cy: 147 },
+    { id: 'v5', objectName: null, cx: 560, cy: 147 },
+    { id: 'v6', objectName: null, cx: 625, cy: 200 },
+    { id: 'v7', objectName: null, cx: 660, cy: 245 },
+    { id: 'v8', objectName: null, cx: 660, cy: 320 },
+    { id: 'v9', objectName: null, cx: 580, cy: 320 },
+    { id: 'v10', objectName: 'South Elevator Entrance', cx: 560, cy: 320 },
+
     { id: 'v73', objectName: '14.6, 14.7', cx: 350, cy: 500 },
     { id: 'v74', objectName: '14.1', cx: 500, cy: 100 },
     { id: 'v75', objectName: '14.2', cx: 500, cy: 400 },
@@ -41,5 +36,16 @@ export const graphData: GraphData = {
     { id: 'v78', objectName: '14.5', cx: 210, cy: 410 },
   ],
 
-  edges: [],
+  edges: [
+    { id: 'v0_to_v1', from: 'v0', to: 'v1' },
+    { id: 'v1_to_v2', from: 'v1', to: 'v2' },
+    { id: 'v2_to_v3', from: 'v2', to: 'v3' },
+    { id: 'v3_to_v4', from: 'v3', to: 'v4' },
+    { id: 'v4_to_v5', from: 'v4', to: 'v5' },
+    { id: 'v5_to_v6', from: 'v5', to: 'v6' },
+    { id: 'v6_to_v7', from: 'v6', to: 'v7' },
+    { id: 'v7_to_v8', from: 'v7', to: 'v8' },
+    { id: 'v8_to_v9', from: 'v8', to: 'v9' },
+    { id: 'v9_to_v10', from: 'v9', to: 'v10' },
+  ],
 };
