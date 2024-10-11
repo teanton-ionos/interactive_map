@@ -67,7 +67,7 @@ function Sidebar() {
           <div className="flex flex-col">
             <div className="flex flex-col">
               <p className="text-2xl font-semibold text-gray-900 pl-2">
-                PathPal
+                SkyTower
               </p>
               <p className="text-sm font-semibold text-[#225EA9] pl-2">
                 Indoor-Navigation

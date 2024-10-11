@@ -14,13 +14,13 @@ function Objects({ handleObjectClick, className }: ObjectsProps) {
       <path
         id="North Elevator Entrance"
         className={`${className} object`}
-        d="M33.225 368.014l158.276-.11.083 265.887-158.45-.03.091-265.747z"
+        d="M249.5 306.5V334.25H238.5V306.5H249.5Z"
         onClick={handleObjectClick}
       />
       <path
         id="South Elevator Entrance"
         className={`${className} object`}
-        d="M1305.166 292.446l119.546.21-.043 111.717-119.492-.035-.011-111.892z"
+        d="M567.5 305.5V333.25H556.5V305.5H567.5Z"
         onClick={handleObjectClick}
       />
       <ellipse
