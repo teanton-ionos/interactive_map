@@ -18,7 +18,7 @@ export const graphData: GraphData = {
   vertices: [
     { id: 'v1', objectName: null, cx: 361.105, cy: 512.811 },
     { id: 'v2', objectName: null, cx: 237.691, cy: 512.811 },
-    { id: 'v6', objectName: 'Smth', cx: 663, cy: 180 },
+    { id: 'v6', objectName: 'Restroom', cx: 663, cy: 180 },
     { id: 'v19', objectName: null, cx: 754.244, cy: 873.505 },
     { id: 'v20', objectName: null, cx: 622.812, cy: 873.505 },
     { id: 'v21', objectName: null, cx: 490.616, cy: 873.505 },
